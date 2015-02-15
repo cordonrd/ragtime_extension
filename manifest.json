@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Ragtime Chrome",
+  "description": "Take your browser back to the 20's",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
