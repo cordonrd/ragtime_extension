@@ -1,0 +1,14 @@
+var film = document.createElement('img');
+film.src = chrome.extension.getURL("film.gif");
+film.setAttribute("id", "--vintage18293782");
+document.body.appendChild(film);
+var resize = document.getElementById("--vintage18293782");
+resize.style.height="100%";
+resize.style.width ="100%";
+resize.style.position = "fixed";
+resize.style.top = "0px";
+resize.style.left = "0px";
+resize.style.opacity = ".4";
+resize.setAttribute("style", resize.style.cssText+";pointer-events: none");
+resize.setAttribute("style", resize.style.cssText+";-webkit-filter:sepia(100%)");
+resize.setAttribute("style", resize.style.cssText+";z-index: 600");
